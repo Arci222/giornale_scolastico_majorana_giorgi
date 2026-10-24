@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem Ipsum</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Work+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Lorem ipsum</a>
+
+    <header class="site-header">
+      <button
+        class="hamburger"
+        id="hamburger"
+        type="button"
+        aria-label="Apri il menu"
+        aria-expanded="false"
+        aria-controls="menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav aria-label="Navigazione principale">
+        <ul class="menu" id="menu">
+          <li><a href="GianniPedia.html">Lorem ipsum</a></li>
+          <li><a href="GianniPediaInfo.html">Dolor sit amet</a></li>
+          <li><a href="SuGianni">Consectetur adipiscing elit</a></li>
+          <li><a href="AltreDomande">Sed do eiusmod tempor</a></li>
+          <li><a href="Contatto">Incididunt ut labore</a></li>
+          <li><a href="login.html">Et dolore magna</a></li>
+          <li><a href="GianniGeographic">Aliqua enim ad minim</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="overlay" id="overlay"></div>
+
+    <main id="main-content">
+      <section class="hero">
+        <h1>
+          Giornalino Scolastico<span class="dopotitolo"
+            ><br>Majorana-Giorgi</span
+          >
+        </h1>
+
+        <search>
+          <form role="search" onsubmit="return false;">
+            <div class="search-wrapper">
+              <label class="visually-hidden" for="searchInput"
+                >Lorem ipsum dolor sit amet</label
+              >
+              <input
+                type="text"
+                id="searchInput"
+                placeholder="Lorem ipsum dolor sit amet"
+                autocomplete="off"
+              >
+              <ul class="search-dropdown" id="searchDropdown"></ul>
+            </div>
+          </form>
+        </search>
+      </section>
+
+      <section class="articoli-container" aria-label="Lorem ipsum dolor sit amet">
+        <article class="tendina">
+          <details>
+            <summary>nuovi rappresentanti di istituto</summary>
+            <div class="contenuto-tendina">
+              <p class="articolo-testo">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </details>
+        </article>
+
+        <article class="tendina">
+          <details>
+            <summary>rappresentanti di classe per ogni classe</summary>
+            <div class="contenuto-tendina">
+              <p class="articolo-testo">
+                Duis aute irure dolor in reprehenderit in voluptate velit
+                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </details>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Lorem ipsum dolor sit amet &mdash; consectetur adipiscing elit, 2026.</p>
+    </footer>
+  </body>
+</html>
